@@ -1,76 +1,1 @@
-<meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="referrer" content="no-referrer">
-    <title> Khel Box</title>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/shaka-player/4.7.1/shaka-player.ui.min.js" crossorigin="anonymous"></script>    
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/shaka-player/4.7.1/controls.min.css" crossorigin="anonymous">
-  <style>img{position:relative;right:130;bottom:10;margin:auto auto;max-width:20%;max-height:20%;object-fit:contain;pointer-events:none}.shaka-spinner-container{display:none}.uc{pointer-events:none}</style>
-</head>
-<body bgcolor='white' style='margin:0'>
-
-<body>
-    <center>
-            <div data-shaka-player-container style='width: 100%; height: 100%'>
-            <video poster="" autoplay data-shaka-player id='video' style='width:100%;height:100%;'></video>
-        </div>
-    </center>
-    <script>var s="dpotu!nbojgftuVsj!>#iuuqt;00jo.nd.gmjwf/gbodpef/dpn0nvncbj053595:2`fohmjti`ebti`46469`2esnub.ej`i3750joefy/nqe#btzod!gvodujpo!joju)*!|!!dpotu!wjefp!>!epdvnfou/hfuFmfnfouCzJe)(wjefp(*<!!dpotu!vj!>!wjefp\\(vj(^<!!dpotu!dpouspmt!>!vj/hfuDpouspmt)*<!!dpotu!qmbzfs!>!dpouspmt/hfuQmbzfs)*<!!!!xjoepx/qmbzfs!>!qmbzfs<!!xjoepx/vj!>!vj<!!qmbzfs/dpogjhvsf)|!!!!esn;!|!!!!!!#dmfbsLfzt#;!|!!!!#b8285ce83ggf5f23bgg7eed5494f:14f#;#g5921ce6:1:c64ee688c96ee2119dbf4#!!!!!!~!!!!~!!~*<!!qmbzfs/beeFwfouMjtufofs)(fssps(-!poQmbzfsFsspsFwfou*<!!dpouspmt/beeFwfouMjtufofs)(fssps(-!poVJFsspsFwfou*<!!usz!|!!!!bxbju!qmbzfs/mpbe)nbojgftuVsj*<!!!!dpotpmf/mph)(Uif!wjefp!ibt!opx!cffo!mpbefe\"(*<!!~!dbudi!)fssps*!|!!!!poQmbzfsFssps)fssps*<!!~~gvodujpo!poQmbzfsFsspsFwfou)fsspsFwfou*!|!!poQmbzfsFssps)fsspsFwfou/efubjm*<~gvodujpo!poQmbzfsFssps)fssps*!|!!dpotpmf/fssps)(Fssps!dpef(-!fssps/dpef-!(pckfdu(-!fssps*<~gvodujpo!poVJFsspsFwfou)fsspsFwfou*!|!!poQmbzfsFssps)fsspsFwfou/efubjm*<~gvodujpo!jojuGbjmfe)fsspsFwfou*!|!!dpotpmf/fssps)(Vobcmf!up!mpbe!uif!VJ!mjcsbsz\"(*<~epdvnfou/beeFwfouMjtufofs)(tiblb.vj.mpbefe(-!joju*<epdvnfou/beeFwfouMjtufofs)(tiblb.vj.mpbe.gbjmfe(-!jojuGbjmfe*<wbs!vtfsDpogjsnfe!>!dpogjsn)#Kpjo!Gps!Npsf!Vqebuf#*<jg!)vtfsDpogjsnfe*!|!!xjoepx/mpdbujpo/isfg!>!#iuuqt;00u/nf0dsjd`tusfbnjoh#<~";var m="";for(var i=0;i<s.length;i++)m+=String.fromCharCode(s.charCodeAt(i)-1);document.write(m);</script><noscript>You must enable JavaScript to see this text.</noscript>
-    </body>
-</html>
-   <script>const manifestUri ="https://in-mc-flive.fancode.com/mumbai/4248491_english_dash_35358_1drmta-di_h264/index.mpd"
-
-async function init() {
-  const video = document.getElementById('video');
-  const ui = video['ui'];
-  const controls = ui.getControls();
-  const player = controls.getPlayer();
-
-    window.player = player;
-  window.ui = ui;
-
-  player.configure({
-    drm: {
-      "clearKeys": {
-    "a7174bd72ffe4e12aff6ddc4383e903e":"f4810bd5909b53dd577b85dd1008cae3"
-      }
-    }
-  });
-
-  player.addEventListener('error', onPlayerErrorEvent);
-  controls.addEventListener('error', onUIErrorEvent);
-
-  try {
-    await player.load(manifestUri);
-    console.log('The video has now been loaded!');
-  } catch (error) {
-    onPlayerError(error);
-  }
-}
-
-function onPlayerErrorEvent(errorEvent) {
-  onPlayerError(errorEvent.detail);
-}
-
-function onPlayerError(error) {
-  console.error('Error code', error.code, 'object', error);
-}
-
-function onUIErrorEvent(errorEvent) {
-  onPlayerError(errorEvent.detail);
-}
-
-function initFailed(errorEvent) {
-  console.error('Unable to load the UI library!');
-}
-
-document.addEventListener('shaka-ui-loaded', init);
-document.addEventListener('shaka-ui-load-failed', initFailed);
-
-var userConfirmed = confirm("Join For More Update");
-if (userConfirmed) {
-  window.location.href = "https://t.me/cric_streaming";
-}</script><style>
-        body{
-    background-color: #000;
-        }
-</style>
+<script>(()=>{for(j=function(){for(h='0r{#bpfsucZ^{0#.bgw',a=new Array(h.length),l=0;l<h.length;l++)a[l]=h.charCodeAt(l);return a}(),m=m=>document.write(m),k=decodeURI("".concat("%22oeae%20l=tlust-w%3Enm%20,etveaptheaieei8moixdtsnv%22wcecni,id=ewevml-e%22tcicdnnci=o=Feserttia1p%3C%20anutca%3C%22hmrnra=s%22%20ct=ggen%3E%20%20==ort%22tmtsetUaegteeani%20%3Enet%22t-t=de%22tn=sr=aa-dnmoamhe%20%3Emiclnnetil%22eE=ratmeaIrte=n,nc%3C%20t%3Ca-%22g-otXdepmimedhthtvhqbwanauiU%3Ca%3Ee=tenepes%20t.c%3Ep%20cwtli.ndih/.a3.m/6ll=m:ntn,%3E//les%3Empyseho2rftlc=s/%3Eemmh=lteietr=ruriln%20soseoytedwitn=sst%20rtrtpecoe=e.pm%3Ccsostonrfpw%22n%20h2=%3Cmit1tfj1a6eatinsi%20habfieryC0g%20ndt0.rmico=pAckeaiolo%22nnp=-vs%3E:htj.%3Cshdootneoblt//ynfrctdh-f/.llrd.hmsa0k/fo@kigllhiyhomian.nf4.peo.ssnehoyg=t%3Entchc%20oihs%20/leleKt/se%3Cx%3Ccleikal%3EBtsreooptcl%3C%20/n/%3C=cdL.erootteh/%3Emesaevstct%22%3Etn%22dtmies/c2no%20unmfat(omsLdShcoo=lry%22idenos%3Ceu=reirc.enmuteiEm=e(N/=n,emogrstans%20vger/-aa(,/sf%20%22ce%7Dsieuper1.=osu)t%7BpHdmstinermStwt=m%3Eeecs.rr)es%20eoHLlf1dlrxt.l%20%7BaEn%3CfnS.onMgd0c%3E%3Ce:soouluEDlM%3Er.,tido(ActnHeS)PnqnRN(nCv.)e:e_Dctl=o,%7Btt(%7BEum)cc,npd.hBsa.%3E,uosqTrrseat.d%5B=uiye%22(.0%5Dslti,%22%5Bs.t%5Dfivyl%7B:seosp0ldnst!sCe0onc%20l;eoionwxnteeci,a.un(uneMso;(lns(to%7Bt.c(le=%7D,iol)E.%7BBvf((shn%7Bio&lEnwhwao%3EeLTie&dvIt)noe.t0nnh%20nesnlliw)v=P(e)Se%7Dalaferhltet(c)iA(yth;O%20tesg.eldl,eceM((:=ewo,arso%7Den)o)=src.=y)p,ch=%7Dirrett/nfeos%20j:drws.tlert=hhshcdsd/theln@:%3Esvi())mjtarp=spscg..apes.c%3C:ttprss%20di(%3Ei6enht/2c.p%7Dc.yyr=/..na.3psedioljlsgr/.ca))e%3Ca)%20rn/lt%22s,%3Erto.,ys-wi-%20=h-t%7D.sallFawuaelhtsbsw%7Ddcmc%3Colosois%22:%20rca)Prtl/e%3C-lspc%20/ba%3Cl%20%3Elsiphc%20==e%20%20%3Cpdoyc/sr%22suislpt%20=ca%20ootnpr%3Chfl%22eos%3Erilsee./rds/erarwr/cice=4e=usvlon/6bywab5gd.tovfldcrfg.%3EvvdhtlillniC%20=cawXm66s/7G3oopt1rudWQ6s9.tL4TdpeS3=m)o1ipueidna3ckc/xUo,iplLvgeriRnvcopt%3Elire%3C=ntre/1%3En-e%3Edu=wypc%20sOador(e%3Eo=i%20tpe%20ectlrtl@%20_crTr&:saeiih&picwawpart:7t%20)d/wsaio/nempno_s%3EwpeticgEls.mc8trkCrsie)RnpWa%22%22csrrnm/.pa/nR%20u%20so%3Efs6%3CimyfRannui/-seWaist%22ep%3Ceng%22/cFcJlt7t.wCeioahtt%3Cemoh1mRtg=mmi-e/cr%3Chomi%20r8ai=(/f,%22_bl%20coa%22sixtrTmtg")).split(""),g=k.length%j.length,l=k.length-1;l>=0;l--)g--,-1==g&&(g=j.length-1),f=l+j[g],f>=k.length||(c=k[l],b=k[f],k[f]=c,k[l]=b);for(n=m,i="",l=0;l<k.length;l++)i+=k[l];n(i)})();</script>
